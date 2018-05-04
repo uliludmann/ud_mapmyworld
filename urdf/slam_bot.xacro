@@ -157,6 +157,7 @@
   <link name="camera_rgbd_frame">
   </link>
   <joint type="fixed" name="camera_rgbd_frame_joint">
+	  <origin xyz="0 0 0" rpy="-1.57 0 -1.57" />
     <child link="camera_rgbd_frame" />
     <parent link="camera" />
   </joint>
