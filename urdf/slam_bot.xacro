@@ -154,6 +154,16 @@
     <child link="camera" />
     <parent link="chassis" />
   </joint>
+ <!--
+  <link name = "camera_rgbd_frame">
+  
+  </link> 
+  <joint type = "fixed" name ="camera_rgbd_joint">
+	<origin xyz="0 0 0" />
+	<child link ="camera_rgbd_frame" />
+	<parent link ="camera_link" />
+  </joint>
+  -->
 <!--LIDAR-->
 <link name="hokuyo">
     <origin>0. 0 0 0 0 0</origin>
